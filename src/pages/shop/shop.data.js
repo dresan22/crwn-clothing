@@ -5,12 +5,6 @@ const SHOP_DATA = [
     routeName: 'hats',
     items: [
       {
-        id: 1,
-        name: 'Brown Brim',
-        imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
-        price: 25,
-      },
-      {
         id: 2,
         name: 'Blue Beanie',
         imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
@@ -33,6 +27,12 @@ const SHOP_DATA = [
         name: 'Green Beanie',
         imageUrl: 'https://i.ibb.co/YTjW3vF/green-beanie.png',
         price: 18,
+      },
+      {
+        id: 1,
+        name: 'Brown Brim',
+        imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
+        price: 25,
       },
       {
         id: 6,
@@ -72,24 +72,6 @@ const SHOP_DATA = [
         price: 220,
       },
       {
-        id: 11,
-        name: 'Adidas Yeezy',
-        imageUrl: 'https://i.ibb.co/dJbG1cT/yeezy.png',
-        price: 280,
-      },
-      {
-        id: 12,
-        name: 'Black Converse',
-        imageUrl: 'https://i.ibb.co/bPmVXyP/black-converse.png',
-        price: 110,
-      },
-      {
-        id: 13,
-        name: 'Nike White AirForce',
-        imageUrl: 'https://i.ibb.co/1RcFPk0/white-nike-high-tops.png',
-        price: 160,
-      },
-      {
         id: 14,
         name: 'Nike Red High Tops',
         imageUrl: 'https://i.ibb.co/QcvzydB/nikes-red.png',
@@ -112,6 +94,24 @@ const SHOP_DATA = [
         name: 'Timberlands',
         imageUrl: 'https://i.ibb.co/Mhh6wBg/timberlands.png',
         price: 200,
+      },
+      {
+        id: 11,
+        name: 'Adidas Yeezy',
+        imageUrl: 'https://i.ibb.co/dJbG1cT/yeezy.png',
+        price: 280,
+      },
+      {
+        id: 12,
+        name: 'Black Converse',
+        imageUrl: 'https://i.ibb.co/bPmVXyP/black-converse.png',
+        price: 110,
+      },
+      {
+        id: 13,
+        name: 'Nike White AirForce',
+        imageUrl: 'https://i.ibb.co/1RcFPk0/white-nike-high-tops.png',
+        price: 160,
       },
     ],
   },
@@ -219,6 +219,12 @@ const SHOP_DATA = [
         price: 20,
       },
       {
+        id: 35,
+        name: 'Burgundy T-shirt',
+        imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
+        price: 25,
+      },
+      {
         id: 32,
         name: 'Black & White Longsleeve',
         imageUrl: 'https://i.ibb.co/55z32tw/long-sleeve.png',
@@ -235,12 +241,6 @@ const SHOP_DATA = [
         name: 'Jean Long Sleeve',
         imageUrl: 'https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png',
         price: 40,
-      },
-      {
-        id: 35,
-        name: 'Burgundy T-shirt',
-        imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
-        price: 25,
       },
     ],
   },
