@@ -23,7 +23,19 @@
   }
 
   .quantity {
-    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+
+    .arrow {
+      cursor: pointer;
+      font-size: 18px;
+
+      align-self: flex-start;
+    }
+    .value {
+      margin: 0 10px;
+    }
   }
 
   .remove-button {
