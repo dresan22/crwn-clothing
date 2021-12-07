@@ -6,10 +6,10 @@ import {
   removeItem,
 } from '../../redux/cart/cart.actions';
 import './checkout-item.styles.scss';
-const CheckoutItem = ({ cartItem, clearItem, addItem, removeItem }) => {
+const CheckoutItem = ({ cartItem, clearItem, addItem, removeItem, i }) => {
   const { name, imageUrl, price, quantity } = cartItem;
   return (
-    <div className='checkout-item'>
+    <div className={`checkout-item ${i % 2 === 0 ? 'grey' : ''}`}>
       <div className='image-container'>
         <img src={imageUrl} alt='item' />
       </div>

@@ -1,9 +1,15 @@
-const SHOP_DATA = [
-  {
+const SHOP_DATA = {
+  hats: {
     id: 1,
     title: 'Hats',
     routeName: 'hats',
     items: [
+      {
+        id: 1,
+        name: 'Brown Brim',
+        imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
+        price: 25,
+      },
       {
         id: 2,
         name: 'Blue Beanie',
@@ -27,12 +33,6 @@ const SHOP_DATA = [
         name: 'Green Beanie',
         imageUrl: 'https://i.ibb.co/YTjW3vF/green-beanie.png',
         price: 18,
-      },
-      {
-        id: 1,
-        name: 'Brown Brim',
-        imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
-        price: 25,
       },
       {
         id: 6,
@@ -60,7 +60,7 @@ const SHOP_DATA = [
       },
     ],
   },
-  {
+  sneakers: {
     id: 2,
     title: 'Sneakers',
     routeName: 'sneakers',
@@ -70,6 +70,24 @@ const SHOP_DATA = [
         name: 'Adidas NMD',
         imageUrl: 'https://i.ibb.co/0s3pdnc/adidas-nmd.png',
         price: 220,
+      },
+      {
+        id: 11,
+        name: 'Adidas Yeezy',
+        imageUrl: 'https://i.ibb.co/dJbG1cT/yeezy.png',
+        price: 280,
+      },
+      {
+        id: 12,
+        name: 'Black Converse',
+        imageUrl: 'https://i.ibb.co/bPmVXyP/black-converse.png',
+        price: 110,
+      },
+      {
+        id: 13,
+        name: 'Nike White AirForce',
+        imageUrl: 'https://i.ibb.co/1RcFPk0/white-nike-high-tops.png',
+        price: 160,
       },
       {
         id: 14,
@@ -95,27 +113,9 @@ const SHOP_DATA = [
         imageUrl: 'https://i.ibb.co/Mhh6wBg/timberlands.png',
         price: 200,
       },
-      {
-        id: 11,
-        name: 'Adidas Yeezy',
-        imageUrl: 'https://i.ibb.co/dJbG1cT/yeezy.png',
-        price: 280,
-      },
-      {
-        id: 12,
-        name: 'Black Converse',
-        imageUrl: 'https://i.ibb.co/bPmVXyP/black-converse.png',
-        price: 110,
-      },
-      {
-        id: 13,
-        name: 'Nike White AirForce',
-        imageUrl: 'https://i.ibb.co/1RcFPk0/white-nike-high-tops.png',
-        price: 160,
-      },
     ],
   },
-  {
+  jackets: {
     id: 3,
     title: 'Jackets',
     routeName: 'jackets',
@@ -152,7 +152,7 @@ const SHOP_DATA = [
       },
     ],
   },
-  {
+  womens: {
     id: 4,
     title: 'Womens',
     routeName: 'womens',
@@ -201,7 +201,7 @@ const SHOP_DATA = [
       },
     ],
   },
-  {
+  mens: {
     id: 5,
     title: 'Mens',
     routeName: 'mens',
@@ -217,12 +217,6 @@ const SHOP_DATA = [
         name: 'Floral T-shirt',
         imageUrl: 'https://i.ibb.co/qMQ75QZ/floral-shirt.png',
         price: 20,
-      },
-      {
-        id: 35,
-        name: 'Burgundy T-shirt',
-        imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
-        price: 25,
       },
       {
         id: 32,
@@ -242,8 +236,14 @@ const SHOP_DATA = [
         imageUrl: 'https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png',
         price: 40,
       },
+      {
+        id: 35,
+        name: 'Burgundy T-shirt',
+        imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
+        price: 25,
+      },
     ],
   },
-];
+};
 
 export default SHOP_DATA;
