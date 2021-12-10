@@ -18,7 +18,6 @@ import { selectCartHidden } from './redux/cart/cart.selectors';
 import { toggleCartHidden } from './redux/cart/cart.actions';
 
 import { createStructuredSelector } from 'reselect';
-// import { toggleCartHidden } from '../../redux/cart/cart.actions';
 
 class App extends React.Component {
   unsubscribeFromAuth = null;
@@ -36,7 +35,9 @@ class App extends React.Component {
             ...snapShot.data(),
           });
         });
-      } else setCurrentUser(userAuth); /////////////////////// maybe an else?
+      }
+
+      setCurrentUser(userAuth); /////////////////////// maybe an else?
     });
   }
 
