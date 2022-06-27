@@ -1,5 +1,4 @@
 # crwn-clothing
-NOT COMPLETED./
 DEMO./
 PRESS CROWN ICON FOR HOME/
 
